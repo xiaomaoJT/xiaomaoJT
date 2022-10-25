@@ -21,6 +21,24 @@
 
 <br/>
 
+## Connect with me
+
+<div align="center">
+<a href="https://t.me/xiaomaoJT" target="_blank">
+<img src=https://img.shields.io/badge/Telegram-XiaoMao频道-blue alt=github style="margin-bottom: 5px;" />
+</a>
+
+<a href="https://t.me/Xiao_MaoMao_bot" target="_blank">
+<img src=https://img.shields.io/badge/Robot-XiaoMaoBot-orange alt=github style="margin-bottom: 5px;" />
+</a>
+
+<a href="https://t.me/xiaomaoJT" target="_blank">
+<img src=https://img.shields.io/badge/WeChat-小帽集团-green alt=github style="margin-bottom: 5px;" />
+</a>
+</div>
+
+## Visitor Counter
+
 <div align="center">
 <img src="https://komarev.com/ghpvc/?username=xiaomaoJT&&style=flat-square" align="center" />
 </div>
