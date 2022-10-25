@@ -1,19 +1,26 @@
-<!-- just img -->
-<div align="center"><img width="50%" src="https://cdn.jsdelivr.net/gh/xiaomaoJT/xiaomaoJT/photo/code.gif"/></div>
-<br>
+<div align="center">
+<img src="https://rishavanand.github.io/static/images/greetings.gif" align="center" style="width: 100%" />
+</div>
+
+### **<div align="center">我是 XiaoMao，很高兴认识你。</div>**
+
+**<div align="center">I'm XiaoMao. Nice to meet you.</div>**
+
+<br/>
+
+## Github Stats
+
+<div align="center"><img src="https://github-readme-stats.vercel.app/api?username=xiaomaoJT&show_icons=true&count_private=true&hide_border=true" align="center" /></div>
+
+<br/>
+
+## Github Contribution
 
 <!-- 贪吃蛇代码贡献图 -->
 <div align="center"><img src="https://cdn.jsdelivr.net/gh/xiaomaoJT/xiaomaoJT/contribution-snake/github-contribution-grid-snake.svg" /></div>
-<br>
 
-<!-- GitHub数据统计 -->
+<br/>
+
 <div align="center">
-  <img height="137px" src="https://github-readme-stats.vercel.app/api?username=xiaomaoJT&hide_title=true&hide_border=true&show_icons=trueline_height=21&text_color=000&icon_color=000&bg_color=0,ea6161,ffc64d,fffc4d,52fa5a&theme=cobalt" />
-  <img height="137px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=xiaomaoJT&hide_title=true&hide_border=true&layout=compact&langs_count=6&text_color=000&icon_color=fff&bg_color=0,52fa5a,4dfcff,c64dff&theme=cobalt" />
-</div>
-<br>
-
-<div>
-    <img height="165" align="left" src="https://github-readme-stats.vercel.app/api?username=xiaomaoJT&theme=calm&show_icons=true" />
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=xiaomaoJT&hide=html,css,Jupyter+Notebook,ruby,javascript&theme=calm&langs_count=6&layout=compact" />
+<img src="https://komarev.com/ghpvc/?username=xiaomaoJT&&style=flat-square" align="center" />
 </div>
