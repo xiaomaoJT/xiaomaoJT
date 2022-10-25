@@ -16,7 +16,7 @@
 
 ## Github Language
 
-<div align="center"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=xiaomaoJT&show_icons=true&count_private=true&hide_border=true&theme=synthwave" align="center" /></div>
+<div align="center"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=xiaomaoJT&show_icons=true&count_private=true&hide_border=true" align="center" /></div>
 
 <br/>
 
