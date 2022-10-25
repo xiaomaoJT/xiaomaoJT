@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://rishavanand.github.io/static/images/greetings.gif" align="center" style="width: 100%;height:300px;" />
+<img src="https://rishavanand.github.io/static/images/greetings.gif" align="center" style="height:300px;" />
 </div>
 
 ### **<div align="center"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=%E6%88%91%E6%98%AF+XiaoMao+%EF%BC%8C%E5%BE%88%E9%AB%98%E5%85%B4%E8%AE%A4%E8%AF%86%E4%BD%A0+%EF%BC%81" alt="Typing SVG" /></div>**
@@ -8,14 +8,6 @@
 
 <br/>
 
-## Github Stats
-
-<div align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=xiaomaoJT&show_icons=true&count_private=true&hide_border=true" align="center" style="height:180px;" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=xiaomaoJT&show_icons=true&count_private=true&hide_border=true" align="center" style="height:180px;" />
-</div>
-
-<br/>
 
 ## Github Steak
 
@@ -26,6 +18,15 @@
 ## Github Trophy
 
 <div align="center"><img src="https://github-profile-trophy.vercel.app/?username=xiaomaoJT" align="center" /></div>
+
+<br/>
+
+## Github Stats
+
+<div align="center">
+<img src="https://github-readme-stats.vercel.app/api?username=xiaomaoJT&show_icons=true&count_private=true&hide_border=true" align="center" style="height:180px;" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=xiaomaoJT&show_icons=true&count_private=true&hide_border=true" align="center" style="height:180px;" />
+</div>
 
 <br/>
 
