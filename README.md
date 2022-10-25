@@ -1,16 +1,24 @@
 <div align="center">
-<img src="https://rishavanand.github.io/static/images/greetings.gif" align="center" style="width: 100%" />
+<img src="https://rishavanand.github.io/static/images/greetings.gif" align="center" style="width: 100%;height:400px;" />
 </div>
 
-### **<div align="center">我是 XiaoMao，很高兴认识你。</div>**
+### **<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=%E6%88%91%E6%98%AF+XiaoMao+%EF%BC%8C%E5%BE%88%E9%AB%98%E5%85%B4%E8%AE%A4%E8%AF%86%E4%BD%A0+%EF%BC%81" alt="Typing SVG" /></a>**
 
-**<div align="center">I'm XiaoMao. Nice to meet you.</div>**
+**<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=I'm+XiaoMao.+Nice+to+meet+you!" alt="Typing SVG" /></a>**
 
 <br/>
 
 ## Github Stats
 
 <div align="center"><img src="https://github-readme-stats.vercel.app/api?username=xiaomaoJT&show_icons=true&count_private=true&hide_border=true" align="center" /></div>
+
+<br/>
+
+## Github Activity Graph
+
+<div align="center">
+<img src="https://activity-graph.herokuapp.com/graph?username=xiaomaoJT&theme=merko" align="center" />
+</div>
 
 <br/>
 
@@ -21,7 +29,7 @@
 
 <br/>
 
-## Connect with me
+## Connect With Me
 
 <div align="center">
 <a href="https://t.me/xiaomaoJT" target="_blank">
@@ -32,13 +40,17 @@
 <img src=https://img.shields.io/badge/Robot-XiaoMaoBot-orange alt=github style="margin-bottom: 5px;" />
 </a>
 
-<a href="https://t.me/xiaomaoJT" target="_blank">
+<a href="https://github.com/xiaomaoJT/xiaomaoJT/blob/main/photo/qrcode.jpg?raw=true" target="_blank">
 <img src=https://img.shields.io/badge/WeChat-小帽集团-green alt=github style="margin-bottom: 5px;" />
 </a>
 </div>
+
+<br/>
 
 ## Visitor Counter
 
 <div align="center">
 <img src="https://komarev.com/ghpvc/?username=xiaomaoJT&&style=flat-square" align="center" />
 </div>
+
+<br/>
