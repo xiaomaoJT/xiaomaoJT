@@ -29,13 +29,14 @@
 
 <br/>
 
-<!-- ## Github Activity Graph
+## Github Activity Graph
+
 
 <div align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=xiaomaoJT&theme=merko&show_icons=true" align="center" />
+<img src="hhttps://github-readme-activity-graph.vercel.app/graph?username=xiaomaoJT&bg_color=000000&color=ffffff&line=6ef500&point=00fbff&area=true&hide_border=true" align="center" />
 </div>
 
-<br/> -->
+<br/>
 
 ## Github Contribution
 
