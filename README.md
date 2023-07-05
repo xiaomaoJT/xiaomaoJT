@@ -32,7 +32,7 @@
 ## Github Activity Graph
 
 <div align="center">
-<img src="https://activity-graph.herokuapp.com/graph?username=xiaomaoJT&theme=merko" align="center" />
+<img src="https://github-readme-stats.vercel.app/api?username=xiaomaoJT&theme=merko&show_icons=true" align="center" />
 </div>
 
 <br/>
@@ -67,6 +67,12 @@
 
 <div align="center">
 <img src="https://komarev.com/ghpvc/?username=xiaomaoJT&&style=flat-square" align="center" />
+</div>
+
+<br/>
+
+<div align="center">
+<img src="https://moe-counter.glitch.me/get/@xiaomaoJT?theme=rule34" align="center" />
 </div>
 
 <br/>
