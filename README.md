@@ -22,7 +22,7 @@
 
 ### 🔭 关于我
 
-- 🔭 &nbsp; 正在维护 **[TgBot](https://github.com/xiaomaoJT/TgBot)**（Telegram 群管机器人）、**[QxScript](https://github.com/xiaomaoJT/QxScript)**（QuantumultX 规则与脚本）、**[clash](https://github.com/xiaomaoJT/clash)**（Clash 配置生成）
+- 🔄 &nbsp; 近期更新 **[TgBot](https://github.com/xiaomaoJT/TgBot)**（Telegram 群管机器人）、**[QxScript](https://github.com/xiaomaoJT/QxScript)**（QuantumultX 规则与脚本）、**[clash](https://github.com/xiaomaoJT/clash)**（Clash 配置生成）
 - 🌱 &nbsp; 折腾方向：自动化脚本 / 代理配置 / 效率工具
 - 💬 &nbsp; 欢迎通过 [Telegram](https://t.me/xiaomaoJT) 交流
 - ⚡ &nbsp; 信条：**能用脚本解决的，绝不手动做第二遍**
@@ -50,16 +50,15 @@
 
 <div align="center">
   <a href="https://github.com/xiaomaoJT/QxScript">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=xiaomaoJT&repo=QxScript&bg_color=0D1117&title_color=67E8F9&text_color=C9D1D9&icon_color=A78BFA&hide_border=true&show_owner=false" width="48%" alt="QxScript" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=xiaomaoJT&repo=QxScript&bg_color=0D1117&title_color=67E8F9&text_color=C9D1D9&icon_color=A78BFA&hide_border=true&show_owner=false" width="460" alt="QxScript" />
   </a>
+  <br><br>
   <a href="https://github.com/xiaomaoJT/TgBot">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=xiaomaoJT&repo=TgBot&bg_color=0D1117&title_color=67E8F9&text_color=C9D1D9&icon_color=A78BFA&hide_border=true&show_owner=false" width="48%" alt="TgBot" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=xiaomaoJT&repo=TgBot&bg_color=0D1117&title_color=67E8F9&text_color=C9D1D9&icon_color=A78BFA&hide_border=true&show_owner=false" width="460" alt="TgBot" />
   </a>
-</div>
-
-<div align="center">
+  <br><br>
   <a href="https://github.com/xiaomaoJT/clash">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=xiaomaoJT&repo=clash&bg_color=0D1117&title_color=67E8F9&text_color=C9D1D9&icon_color=A78BFA&hide_border=true&show_owner=false" width="48%" alt="clash" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=xiaomaoJT&repo=clash&bg_color=0D1117&title_color=67E8F9&text_color=C9D1D9&icon_color=A78BFA&hide_border=true&show_owner=false" width="460" alt="clash" />
   </a>
 </div>
 
@@ -68,12 +67,11 @@
 ### 📊 GitHub 数据
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=xiaomaoJT&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&bg_color=0D1117&title_color=67E8F9&text_color=C9D1D9&icon_color=A78BFA" width="48%" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=xiaomaoJT&layout=compact&hide_border=true&bg_color=0D1117&title_color=67E8F9&text_color=C9D1D9&langs_count=8" width="48%" alt="Top Languages" />
-</div>
-
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=xiaomaoJT&hide_border=true&background=0D1117&stroke=0D1117&ring=22D3EE&fire=F472B6&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=67E8F9&sideLabels=A78BFA&dates=8B949E" width="60%" alt="GitHub Streak" />
+  <img src="https://github-readme-stats.vercel.app/api?username=xiaomaoJT&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&bg_color=0D1117&title_color=67E8F9&text_color=C9D1D9&icon_color=A78BFA" width="480" alt="GitHub Stats" />
+  <br><br>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=xiaomaoJT&layout=compact&card_width=480&hide_border=true&bg_color=0D1117&title_color=67E8F9&text_color=C9D1D9&langs_count=8" width="480" alt="Top Languages" />
+  <br><br>
+  <img src="https://streak-stats.demolab.com?user=xiaomaoJT&hide_border=true&background=0D1117&stroke=0D1117&ring=22D3EE&fire=F472B6&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=67E8F9&sideLabels=A78BFA&dates=8B949E" width="480" alt="GitHub Streak" />
 </div>
 
 ---
