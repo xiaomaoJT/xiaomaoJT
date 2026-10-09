@@ -24,7 +24,7 @@
 
 - 🔄 &nbsp; 近期更新 **[TgBot](https://github.com/xiaomaoJT/TgBot)**（Telegram 群管机器人）、**[QxScript](https://github.com/xiaomaoJT/QxScript)**（QuantumultX 规则与脚本）、**[clash](https://github.com/xiaomaoJT/clash)**（Clash 配置生成）
 - 🌱 &nbsp; 折腾方向：自动化脚本 / 代理配置 / 效率工具
-- 💬 &nbsp; 欢迎通过 [Telegram](https://t.me/xiaomaoJT) 交流
+- 💬 &nbsp; 欢迎通过 [Telegram](https://t.me/ListenToMao) 交流
 - ⚡ &nbsp; 信条：**能用脚本解决的，绝不手动做第二遍**
 
 ---
@@ -97,7 +97,7 @@
 ### 📮 联系我
 
 <div align="center">
-  <a href="https://t.me/xiaomaoJT" target="_blank">
+  <a href="https://t.me/ListenToMao" target="_blank">
     <img src="https://img.shields.io/badge/Telegram-%E9%A2%91%E9%81%93-0D1117?style=for-the-badge&logo=telegram&logoColor=26A5E4" alt="Telegram 频道" />
   </a>
   <a href="https://t.me/hSuMjrQppKE5MWU9" target="_blank">
