@@ -18,49 +18,34 @@
 
 <br>
 
+![数据总览](./assets/metrics.svg)
+
 ---
 
-### 🔭 关于我
+### 🧭 关于我
+
+> 一个把「重复的事交给代码」奉为信条的折腾型开发者。白天写脚本，晚上调代理，闲下来就做点效率小工具。
 
 - 🔄 &nbsp; 近期更新 **[TgBot](https://github.com/xiaomaoJT/TgBot)**（Telegram 群管机器人）、**[QxScript](https://github.com/xiaomaoJT/QxScript)**（QuantumultX 规则与脚本）、**[clash](https://github.com/xiaomaoJT/clash)**（Clash 配置生成）
 - 🌱 &nbsp; 折腾方向：自动化脚本 / 代理配置 / 效率工具
 - 💬 &nbsp; 欢迎通过 [Telegram](https://t.me/ListenToMao) 交流
 - ⚡ &nbsp; 信条：**能用脚本解决的，绝不手动做第二遍**
 
----
+<br>
 
-### 🛠 技术栈
-
-<div align="center">
-  <img src="https://img.shields.io/badge/JavaScript-0D1117?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/Vue.js-0D1117?style=for-the-badge&logo=vuedotjs&logoColor=42B883" alt="Vue" />
-  <img src="https://img.shields.io/badge/Node.js-0D1117?style=for-the-badge&logo=nodedotjs&logoColor=8CC84B" alt="Node.js" />
-  <img src="https://img.shields.io/badge/Python-0D1117?style=for-the-badge&logo=python&logoColor=4B8BBE" alt="Python" />
-  <br>
-  <img src="https://img.shields.io/badge/Shell-0D1117?style=for-the-badge&logo=gnubash&logoColor=89E051" alt="Shell" />
-  <img src="https://img.shields.io/badge/HTML5-0D1117?style=for-the-badge&logo=html5&logoColor=E34F26" alt="HTML5" />
-  <img src="https://img.shields.io/badge/Git-0D1117?style=for-the-badge&logo=git&logoColor=F05033" alt="Git" />
-  <img src="https://img.shields.io/badge/macOS-0D1117?style=for-the-badge&logo=apple&logoColor=FFFFFF" alt="macOS" />
-  <img src="https://img.shields.io/badge/Linux-0D1117?style=for-the-badge&logo=linux&logoColor=FCC624" alt="Linux" />
-</div>
+![我做什么](./assets/focus.svg)
 
 ---
 
 ### 🚀 精选项目
 
-<div align="center">
-  <a href="https://github.com/xiaomaoJT/QxScript">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=xiaomaoJT&repo=QxScript&bg_color=0D1117&title_color=67E8F9&text_color=C9D1D9&icon_color=A78BFA&hide_border=true&show_owner=false" width="460" alt="QxScript" />
-  </a>
-  <br><br>
-  <a href="https://github.com/xiaomaoJT/TgBot">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=xiaomaoJT&repo=TgBot&bg_color=0D1117&title_color=67E8F9&text_color=C9D1D9&icon_color=A78BFA&hide_border=true&show_owner=false" width="460" alt="TgBot" />
-  </a>
-  <br><br>
-  <a href="https://github.com/xiaomaoJT/clash">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=xiaomaoJT&repo=clash&bg_color=0D1117&title_color=67E8F9&text_color=C9D1D9&icon_color=A78BFA&hide_border=true&show_owner=false" width="460" alt="clash" />
-  </a>
-</div>
+![精选项目](./assets/featured.svg)
+
+---
+
+### 🛠 技术栈
+
+![技术栈与熟练度](./assets/skills.svg)
 
 ---
 

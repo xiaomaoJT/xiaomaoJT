@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="300" viewBox="0 0 920 300" font-family="'PingFang SC','Microsoft YaHei','Segoe UI',system-ui,-apple-system,Helvetica,Arial,sans-serif">
+<defs>
+  <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+    <circle cx="2" cy="2" r="1.1" fill="#FFFFFF" opacity="0.045"/>
+  </pattern>
+  <radialGradient id="topglow" cx="50%" cy="-10%" r="70%">
+    <stop offset="0" stop-color="#22D3EE" stop-opacity="0.18"/>
+    <stop offset="0.5" stop-color="#A78BFA" stop-opacity="0.06"/>
+    <stop offset="1" stop-color="#0D1117" stop-opacity="0"/>
+  </radialGradient>
+  <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+    <feGaussianBlur stdDeviation="2.4" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <linearGradient id="gPanel" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1B2230"/><stop offset="1" stop-color="#0E131A"/></linearGradient>
+  <linearGradient id="gCyan" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0E7490"/><stop offset="1" stop-color="#22D3EE"/></linearGradient>
+  <linearGradient id="gPurple" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#6D28D9"/><stop offset="1" stop-color="#A78BFA"/></linearGradient>
+  <linearGradient id="gPink" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#9D174D"/><stop offset="1" stop-color="#F472B6"/></linearGradient>
+  <linearGradient id="gAmber" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#B45309"/><stop offset="1" stop-color="#FBBF24"/></linearGradient>
+  <linearGradient id="gSkill" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#22D3EE"/><stop offset="1" stop-color="#A78BFA"/></linearGradient>
+</defs>
+<rect width="920" height="300" fill="#0D1117"/><rect width="920" height="300" fill="url(#dots)"/><rect width="920" height="300" fill="url(#topglow)"/>
+<text x="24" y="42" fill="#C9D1D9" font-size="22" font-weight="700" letter-spacing="1">技术栈</text>
+<text x="108" y="42" fill="#67E8F9" font-size="13" font-weight="600" letter-spacing="3">STACK &amp; PROFICIENCY</text>
+<line x1="24" y1="56" x2="896" y2="56" stroke="#30363D" stroke-width="1"/>
+<text x="32" y="91" fill="#C9D1D9" font-size="14.5" font-weight="500">JavaScript / Node.js</text>
+<rect x="320" y="79" width="496" height="12" rx="6" ry="6" fill="#0D1117" stroke="#30363D" stroke-width="1"/>
+<rect x="320" y="79" width="456.32" height="12" rx="6" ry="6" fill="url(#gSkill)"/>
+<text x="864" y="91" fill="#67E8F9" font-size="14" font-weight="700" text-anchor="end">92%</text>
+<text x="32" y="121" fill="#C9D1D9" font-size="14.5" font-weight="500">Google Apps Script</text>
+<rect x="320" y="109" width="496" height="12" rx="6" ry="6" fill="#0D1117" stroke="#30363D" stroke-width="1"/>
+<rect x="320" y="109" width="421.6" height="12" rx="6" ry="6" fill="url(#gSkill)"/>
+<text x="864" y="121" fill="#67E8F9" font-size="14" font-weight="700" text-anchor="end">85%</text>
+<text x="32" y="151" fill="#C9D1D9" font-size="14.5" font-weight="500">代理 / 网络配置</text>
+<rect x="320" y="139" width="496" height="12" rx="6" ry="6" fill="#0D1117" stroke="#30363D" stroke-width="1"/>
+<rect x="320" y="139" width="436.48" height="12" rx="6" ry="6" fill="url(#gSkill)"/>
+<text x="864" y="151" fill="#67E8F9" font-size="14" font-weight="700" text-anchor="end">88%</text>
+<text x="32" y="181" fill="#C9D1D9" font-size="14.5" font-weight="500">Vue.js</text>
+<rect x="320" y="169" width="496" height="12" rx="6" ry="6" fill="#0D1117" stroke="#30363D" stroke-width="1"/>
+<rect x="320" y="169" width="347.2" height="12" rx="6" ry="6" fill="url(#gSkill)"/>
+<text x="864" y="181" fill="#67E8F9" font-size="14" font-weight="700" text-anchor="end">70%</text>
+<text x="32" y="211" fill="#C9D1D9" font-size="14.5" font-weight="500">HTML / CSS</text>
+<rect x="320" y="199" width="496" height="12" rx="6" ry="6" fill="#0D1117" stroke="#30363D" stroke-width="1"/>
+<rect x="320" y="199" width="386.88" height="12" rx="6" ry="6" fill="url(#gSkill)"/>
+<text x="864" y="211" fill="#67E8F9" font-size="14" font-weight="700" text-anchor="end">78%</text>
+<text x="32" y="241" fill="#C9D1D9" font-size="14.5" font-weight="500">Python</text>
+<rect x="320" y="229" width="496" height="12" rx="6" ry="6" fill="#0D1117" stroke="#30363D" stroke-width="1"/>
+<rect x="320" y="229" width="317.44" height="12" rx="6" ry="6" fill="url(#gSkill)"/>
+<text x="864" y="241" fill="#67E8F9" font-size="14" font-weight="700" text-anchor="end">64%</text>
+<text x="32" y="271" fill="#C9D1D9" font-size="14.5" font-weight="500">Shell / 自动化</text>
+<rect x="320" y="259" width="496" height="12" rx="6" ry="6" fill="#0D1117" stroke="#30363D" stroke-width="1"/>
+<rect x="320" y="259" width="357.12" height="12" rx="6" ry="6" fill="url(#gSkill)"/>
+<text x="864" y="271" fill="#67E8F9" font-size="14" font-weight="700" text-anchor="end">72%</text>
+<text x="32" y="301" fill="#C9D1D9" font-size="14.5" font-weight="500">Git</text>
+<rect x="320" y="289" width="496" height="12" rx="6" ry="6" fill="#0D1117" stroke="#30363D" stroke-width="1"/>
+<rect x="320" y="289" width="396.8" height="12" rx="6" ry="6" fill="url(#gSkill)"/>
+<text x="864" y="301" fill="#67E8F9" font-size="14" font-weight="700" text-anchor="end">80%</text>
+<text x="32" y="331" fill="#C9D1D9" font-size="14.5" font-weight="500">macOS / Linux</text>
+<rect x="320" y="319" width="496" height="12" rx="6" ry="6" fill="#0D1117" stroke="#30363D" stroke-width="1"/>
+<rect x="320" y="319" width="372.0" height="12" rx="6" ry="6" fill="url(#gSkill)"/>
+<text x="864" y="331" fill="#67E8F9" font-size="14" font-weight="700" text-anchor="end">75%</text>
+</svg>
