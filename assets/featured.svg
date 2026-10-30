@@ -1,74 +1,91 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="920" height="512" viewBox="0 0 920 512" font-family="'PingFang SC','Microsoft YaHei','Segoe UI',system-ui,-apple-system,Helvetica,Arial,sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="624" viewBox="0 0 920 624" font-family="'PingFang SC','Microsoft YaHei','Segoe UI',system-ui,-apple-system,Helvetica,Arial,sans-serif">
 <defs>
   <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
-    <circle cx="2" cy="2" r="1.1" fill="#FFFFFF" opacity="0.045"/>
+    <circle cx="2" cy="2" r="1.1" fill="#FBBF24" opacity="0.05"/>
   </pattern>
-  <radialGradient id="topglow" cx="50%" cy="-10%" r="70%">
-    <stop offset="0" stop-color="#22D3EE" stop-opacity="0.18"/>
-    <stop offset="0.5" stop-color="#A78BFA" stop-opacity="0.06"/>
+  <radialGradient id="topglow" cx="50%" cy="-10%" r="75%">
+    <stop offset="0" stop-color="#FBBF24" stop-opacity="0.20"/>
+    <stop offset="0.5" stop-color="#F59E0B" stop-opacity="0.07"/>
     <stop offset="1" stop-color="#0D1117" stop-opacity="0"/>
   </radialGradient>
   <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
     <feGaussianBlur stdDeviation="2.4" result="b"/>
     <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
   </filter>
-  <linearGradient id="gPanel" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1B2230"/><stop offset="1" stop-color="#0E131A"/></linearGradient>
-  <linearGradient id="gCyan" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0E7490"/><stop offset="1" stop-color="#22D3EE"/></linearGradient>
-  <linearGradient id="gPurple" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#6D28D9"/><stop offset="1" stop-color="#A78BFA"/></linearGradient>
-  <linearGradient id="gPink" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#9D174D"/><stop offset="1" stop-color="#F472B6"/></linearGradient>
-  <linearGradient id="gAmber" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#B45309"/><stop offset="1" stop-color="#FBBF24"/></linearGradient>
-  <linearGradient id="gSkill" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#22D3EE"/><stop offset="1" stop-color="#A78BFA"/></linearGradient>
+  <linearGradient id="gPanel" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#211B10"/><stop offset="1" stop-color="#0E0B06"/></linearGradient>
+  <linearGradient id="gGold" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#B45309"/><stop offset="1" stop-color="#FBBF24"/></linearGradient>
+  <linearGradient id="gAmber" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#92400E"/><stop offset="1" stop-color="#F59E0B"/></linearGradient>
+  <linearGradient id="gCopper" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7C2D12"/><stop offset="1" stop-color="#FB923C"/></linearGradient>
+  <linearGradient id="gGoldB" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F59E0B"/><stop offset="1" stop-color="#FCD34D"/></linearGradient>
+  <linearGradient id="gSkill" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#B45309"/><stop offset="1" stop-color="#FBBF24"/></linearGradient>
 </defs>
-<rect width="920" height="512" fill="#0D1117"/><rect width="920" height="512" fill="url(#dots)"/><rect width="920" height="512" fill="url(#topglow)"/>
-<text x="24" y="42" fill="#C9D1D9" font-size="22" font-weight="700" letter-spacing="1">精选项目</text>
-<text x="132" y="42" fill="#67E8F9" font-size="13" font-weight="600" letter-spacing="3">FEATURED WORK</text>
-<line x1="24" y1="56" x2="896" y2="56" stroke="#30363D" stroke-width="1"/>
-<rect x="24" y="64" width="872" height="96" rx="16" ry="16" fill="url(#gPanel)" stroke="#30363D" stroke-width="1"/>
-<rect x="40" y="84" width="56" height="56" rx="14" ry="14" fill="#F7DF1E22" stroke="#F7DF1E" stroke-width="1.5"/>
-<text x="68" y="121" text-anchor="middle" fill="#F7DF1E" font-size="28" font-weight="800">Q</text>
-<text x="112" y="102" fill="#C9D1D9" font-size="20" font-weight="700">QxScript</text>
-<rect x="112" y="114" width="99.0" height="20" rx="10" ry="10" fill="#0D1117" stroke="#30363D" stroke-width="1"/>
+<rect width="920" height="624" fill="#0D1117"/><rect width="920" height="624" fill="url(#dots)"/><rect width="920" height="624" fill="url(#topglow)"/>
+<text x="24" y="42" fill="#EDE6D6" font-size="22" font-weight="700" letter-spacing="1">精选项目</text>
+<text x="132" y="42" fill="#FCD34D" font-size="13" font-weight="600" letter-spacing="3">FEATURED WORK</text>
+<line x1="24" y1="56" x2="896" y2="56" stroke="#3A3020" stroke-width="1"/>
+<rect x="24" y="64" width="872" height="96" rx="16" ry="16" fill="url(#gPanel)" stroke="#3A3020" stroke-width="1"/>
+<rect x="24" y="64" width="4" height="96" rx="2" ry="2" fill="#FBBF24"/>
+<rect x="40" y="84" width="56" height="56" rx="14" ry="14" fill="#FBBF241F" stroke="#FBBF24" stroke-width="1.5"/>
+<text x="68" y="121" text-anchor="middle" fill="#FBBF24" font-size="28" font-weight="800">Q</text>
+<text x="112" y="102" fill="#EDE6D6" font-size="20" font-weight="700">QxScript</text>
+<rect x="112" y="114" width="99.0" height="20" rx="10" ry="10" fill="#0D1117" stroke="#3A3020" stroke-width="1"/>
 <circle cx="124" cy="124" r="4" fill="#F7DF1E"/>
-<text x="134" y="128" fill="#8B949E" font-size="12">JavaScript</text>
-<text x="112" y="146" fill="#8B949E" font-size="13.5">QuantumultX 规则与脚本学习记录：代理分流、去广告与重写规则集，开箱即用。</text>
+<text x="134" y="128" fill="#A89B83" font-size="12">JavaScript</text>
+<text x="112" y="146" fill="#A89B83" font-size="13.5">QuantumultX 规则与脚本学习记录：代理分流、去广告与重写规则集，开箱即用。</text>
 <g transform="translate(698,98) scale(1.1250)"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Z" fill="#FBBF24"/></g>
-<text x="722" y="112" fill="#C9D1D9" font-size="17" font-weight="700">457</text>
-<g transform="translate(770,98) scale(1.1250)"><path d="M9.5 3.25a2.25 2.25 0 1 1 3 2.122V6A2.5 2.5 0 0 1 10 8.5H6a1 1 0 0 0-1 1v1.128a2.251 2.251 0 1 1-1.5 0V5.372a2.25 2.25 0 1 1 1.5 0v1.836A2.493 2.493 0 0 1 6 7h4a1 1 0 0 0 1-1v-.628A2.25 2.25 0 0 1 9.5 3.25Zm-6 0a.75.75 0 1 0 1.5 0 .75.75 0 0 0-1.5 0Zm8.25-.75a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5ZM4.25 12a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Z" fill="#F472B6"/></g>
-<text x="794" y="112" fill="#C9D1D9" font-size="17" font-weight="700">29</text>
-<rect x="24" y="176" width="872" height="96" rx="16" ry="16" fill="url(#gPanel)" stroke="#30363D" stroke-width="1"/>
-<rect x="40" y="196" width="56" height="56" rx="14" ry="14" fill="#F7DF1E22" stroke="#F7DF1E" stroke-width="1.5"/>
-<text x="68" y="233" text-anchor="middle" fill="#F7DF1E" font-size="28" font-weight="800">T</text>
-<text x="112" y="214" fill="#C9D1D9" font-size="20" font-weight="700">TgBot</text>
-<rect x="112" y="226" width="99.0" height="20" rx="10" ry="10" fill="#0D1117" stroke="#30363D" stroke-width="1"/>
+<text x="722" y="112" fill="#EDE6D6" font-size="17" font-weight="700">457</text>
+<g transform="translate(770,98) scale(1.1250)"><path d="M9.5 3.25a2.25 2.25 0 1 1 3 2.122V6A2.5 2.5 0 0 1 10 8.5H6a1 1 0 0 0-1 1v1.128a2.251 2.251 0 1 1-1.5 0V5.372a2.25 2.25 0 1 1 1.5 0v1.836A2.493 2.493 0 0 1 6 7h4a1 1 0 0 0 1-1v-.628A2.25 2.25 0 0 1 9.5 3.25Zm-6 0a.75.75 0 1 0 1.5 0 .75.75 0 0 0-1.5 0Zm8.25-.75a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5ZM4.25 12a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Z" fill="#FB923C"/></g>
+<text x="794" y="112" fill="#EDE6D6" font-size="17" font-weight="700">29</text>
+<rect x="24" y="176" width="872" height="96" rx="16" ry="16" fill="url(#gPanel)" stroke="#3A3020" stroke-width="1"/>
+<rect x="24" y="176" width="4" height="96" rx="2" ry="2" fill="#FBBF24"/>
+<rect x="40" y="196" width="56" height="56" rx="14" ry="14" fill="#FBBF241F" stroke="#FBBF24" stroke-width="1.5"/>
+<text x="68" y="233" text-anchor="middle" fill="#FBBF24" font-size="28" font-weight="800">T</text>
+<text x="112" y="214" fill="#EDE6D6" font-size="20" font-weight="700">TgBot</text>
+<rect x="112" y="226" width="99.0" height="20" rx="10" ry="10" fill="#0D1117" stroke="#3A3020" stroke-width="1"/>
 <circle cx="124" cy="236" r="4" fill="#F7DF1E"/>
-<text x="134" y="240" fill="#8B949E" font-size="12">JavaScript</text>
-<text x="112" y="258" fill="#8B949E" font-size="13.5">基于 Google Apps Script 的 Telegram 群管机器人，零服务器运维，功能持续迭代。</text>
+<text x="134" y="240" fill="#A89B83" font-size="12">JavaScript</text>
+<text x="112" y="258" fill="#A89B83" font-size="13.5">基于 Google Apps Script 的 Telegram 群管机器人，零服务器运维，功能持续迭代。</text>
 <g transform="translate(698,210) scale(1.1250)"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Z" fill="#FBBF24"/></g>
-<text x="722" y="224" fill="#C9D1D9" font-size="17" font-weight="700">316</text>
-<g transform="translate(770,210) scale(1.1250)"><path d="M9.5 3.25a2.25 2.25 0 1 1 3 2.122V6A2.5 2.5 0 0 1 10 8.5H6a1 1 0 0 0-1 1v1.128a2.251 2.251 0 1 1-1.5 0V5.372a2.25 2.25 0 1 1 1.5 0v1.836A2.493 2.493 0 0 1 6 7h4a1 1 0 0 0 1-1v-.628A2.25 2.25 0 0 1 9.5 3.25Zm-6 0a.75.75 0 1 0 1.5 0 .75.75 0 0 0-1.5 0Zm8.25-.75a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5ZM4.25 12a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Z" fill="#F472B6"/></g>
-<text x="794" y="224" fill="#C9D1D9" font-size="17" font-weight="700">58</text>
-<rect x="24" y="288" width="872" height="96" rx="16" ry="16" fill="url(#gPanel)" stroke="#30363D" stroke-width="1"/>
-<rect x="40" y="308" width="56" height="56" rx="14" ry="14" fill="#42B88322" stroke="#42B883" stroke-width="1.5"/>
-<text x="68" y="345" text-anchor="middle" fill="#42B883" font-size="28" font-weight="800">C</text>
-<text x="112" y="326" fill="#C9D1D9" font-size="20" font-weight="700">clash</text>
-<rect x="112" y="338" width="39.5" height="20" rx="10" ry="10" fill="#0D1117" stroke="#30363D" stroke-width="1"/>
+<text x="722" y="224" fill="#EDE6D6" font-size="17" font-weight="700">316</text>
+<g transform="translate(770,210) scale(1.1250)"><path d="M9.5 3.25a2.25 2.25 0 1 1 3 2.122V6A2.5 2.5 0 0 1 10 8.5H6a1 1 0 0 0-1 1v1.128a2.251 2.251 0 1 1-1.5 0V5.372a2.25 2.25 0 1 1 1.5 0v1.836A2.493 2.493 0 0 1 6 7h4a1 1 0 0 0 1-1v-.628A2.25 2.25 0 0 1 9.5 3.25Zm-6 0a.75.75 0 1 0 1.5 0 .75.75 0 0 0-1.5 0Zm8.25-.75a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5ZM4.25 12a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Z" fill="#FB923C"/></g>
+<text x="794" y="224" fill="#EDE6D6" font-size="17" font-weight="700">58</text>
+<rect x="24" y="288" width="872" height="96" rx="16" ry="16" fill="url(#gPanel)" stroke="#3A3020" stroke-width="1"/>
+<rect x="24" y="288" width="4" height="96" rx="2" ry="2" fill="#FBBF24"/>
+<rect x="40" y="308" width="56" height="56" rx="14" ry="14" fill="#FBBF241F" stroke="#FBBF24" stroke-width="1.5"/>
+<text x="68" y="345" text-anchor="middle" fill="#FBBF24" font-size="28" font-weight="800">C</text>
+<text x="112" y="326" fill="#EDE6D6" font-size="20" font-weight="700">clash</text>
+<rect x="112" y="338" width="39.5" height="20" rx="10" ry="10" fill="#0D1117" stroke="#3A3020" stroke-width="1"/>
 <circle cx="124" cy="348" r="4" fill="#42B883"/>
-<text x="134" y="352" fill="#8B949E" font-size="12">Vue</text>
-<text x="112" y="370" fill="#8B949E" font-size="13.5">XiaoMao_Clash 自定义配置生成器，可视化合并多份订阅，一键产出可用配置。</text>
+<text x="134" y="352" fill="#A89B83" font-size="12">Vue</text>
+<text x="112" y="370" fill="#A89B83" font-size="13.5">XiaoMao_Clash 自定义配置生成器，可视化合并多份订阅，一键产出可用配置。</text>
 <g transform="translate(698,322) scale(1.1250)"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Z" fill="#FBBF24"/></g>
-<text x="722" y="336" fill="#C9D1D9" font-size="17" font-weight="700">45</text>
-<g transform="translate(770,322) scale(1.1250)"><path d="M9.5 3.25a2.25 2.25 0 1 1 3 2.122V6A2.5 2.5 0 0 1 10 8.5H6a1 1 0 0 0-1 1v1.128a2.251 2.251 0 1 1-1.5 0V5.372a2.25 2.25 0 1 1 1.5 0v1.836A2.493 2.493 0 0 1 6 7h4a1 1 0 0 0 1-1v-.628A2.25 2.25 0 0 1 9.5 3.25Zm-6 0a.75.75 0 1 0 1.5 0 .75.75 0 0 0-1.5 0Zm8.25-.75a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5ZM4.25 12a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Z" fill="#F472B6"/></g>
-<text x="794" y="336" fill="#C9D1D9" font-size="17" font-weight="700">9</text>
-<rect x="24" y="400" width="872" height="96" rx="16" ry="16" fill="url(#gPanel)" stroke="#30363D" stroke-width="1"/>
-<rect x="40" y="420" width="56" height="56" rx="14" ry="14" fill="#E34F2622" stroke="#E34F26" stroke-width="1.5"/>
-<text x="68" y="457" text-anchor="middle" fill="#E34F26" font-size="28" font-weight="800">S</text>
-<text x="112" y="438" fill="#C9D1D9" font-size="20" font-weight="700">XiaoMaoShare</text>
-<rect x="112" y="450" width="48.0" height="20" rx="10" ry="10" fill="#0D1117" stroke="#30363D" stroke-width="1"/>
+<text x="722" y="336" fill="#EDE6D6" font-size="17" font-weight="700">45</text>
+<g transform="translate(770,322) scale(1.1250)"><path d="M9.5 3.25a2.25 2.25 0 1 1 3 2.122V6A2.5 2.5 0 0 1 10 8.5H6a1 1 0 0 0-1 1v1.128a2.251 2.251 0 1 1-1.5 0V5.372a2.25 2.25 0 1 1 1.5 0v1.836A2.493 2.493 0 0 1 6 7h4a1 1 0 0 0 1-1v-.628A2.25 2.25 0 0 1 9.5 3.25Zm-6 0a.75.75 0 1 0 1.5 0 .75.75 0 0 0-1.5 0Zm8.25-.75a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5ZM4.25 12a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Z" fill="#FB923C"/></g>
+<text x="794" y="336" fill="#EDE6D6" font-size="17" font-weight="700">9</text>
+<rect x="24" y="400" width="872" height="96" rx="16" ry="16" fill="url(#gPanel)" stroke="#3A3020" stroke-width="1"/>
+<rect x="24" y="400" width="4" height="96" rx="2" ry="2" fill="#FBBF24"/>
+<rect x="40" y="420" width="56" height="56" rx="14" ry="14" fill="#FBBF241F" stroke="#FBBF24" stroke-width="1.5"/>
+<text x="68" y="457" text-anchor="middle" fill="#FBBF24" font-size="28" font-weight="800">S</text>
+<text x="112" y="438" fill="#EDE6D6" font-size="20" font-weight="700">XiaoMaoShare</text>
+<rect x="112" y="450" width="48.0" height="20" rx="10" ry="10" fill="#0D1117" stroke="#3A3020" stroke-width="1"/>
 <circle cx="124" cy="460" r="4" fill="#E34F26"/>
-<text x="134" y="464" fill="#8B949E" font-size="12">HTML</text>
-<text x="112" y="482" fill="#8B949E" font-size="13.5">零依赖 Node 互传面板：手机 / 电脑打开同一地址，文字、图片、文件随手互传。</text>
+<text x="134" y="464" fill="#A89B83" font-size="12">HTML</text>
+<text x="112" y="482" fill="#A89B83" font-size="13.5">零依赖 Node 互传面板：手机 / 电脑打开同一地址，文字、图片、文件随手互传。</text>
 <g transform="translate(698,434) scale(1.1250)"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Z" fill="#FBBF24"/></g>
-<text x="722" y="448" fill="#C9D1D9" font-size="17" font-weight="700">4</text>
-<g transform="translate(770,434) scale(1.1250)"><path d="M9.5 3.25a2.25 2.25 0 1 1 3 2.122V6A2.5 2.5 0 0 1 10 8.5H6a1 1 0 0 0-1 1v1.128a2.251 2.251 0 1 1-1.5 0V5.372a2.25 2.25 0 1 1 1.5 0v1.836A2.493 2.493 0 0 1 6 7h4a1 1 0 0 0 1-1v-.628A2.25 2.25 0 0 1 9.5 3.25Zm-6 0a.75.75 0 1 0 1.5 0 .75.75 0 0 0-1.5 0Zm8.25-.75a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5ZM4.25 12a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Z" fill="#F472B6"/></g>
-<text x="794" y="448" fill="#C9D1D9" font-size="17" font-weight="700">0</text>
+<text x="722" y="448" fill="#EDE6D6" font-size="17" font-weight="700">4</text>
+<g transform="translate(770,434) scale(1.1250)"><path d="M9.5 3.25a2.25 2.25 0 1 1 3 2.122V6A2.5 2.5 0 0 1 10 8.5H6a1 1 0 0 0-1 1v1.128a2.251 2.251 0 1 1-1.5 0V5.372a2.25 2.25 0 1 1 1.5 0v1.836A2.493 2.493 0 0 1 6 7h4a1 1 0 0 0 1-1v-.628A2.25 2.25 0 0 1 9.5 3.25Zm-6 0a.75.75 0 1 0 1.5 0 .75.75 0 0 0-1.5 0Zm8.25-.75a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5ZM4.25 12a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Z" fill="#FB923C"/></g>
+<text x="794" y="448" fill="#EDE6D6" font-size="17" font-weight="700">0</text>
+<rect x="24" y="512" width="872" height="96" rx="16" ry="16" fill="url(#gPanel)" stroke="#3A3020" stroke-width="1"/>
+<rect x="24" y="512" width="4" height="96" rx="2" ry="2" fill="#FBBF24"/>
+<rect x="40" y="532" width="56" height="56" rx="14" ry="14" fill="#FBBF241F" stroke="#FBBF24" stroke-width="1.5"/>
+<text x="68" y="569" text-anchor="middle" fill="#FBBF24" font-size="28" font-weight="800">B</text>
+<text x="112" y="550" fill="#EDE6D6" font-size="20" font-weight="700">XiaoMaoBossMonitor</text>
+<rect x="112" y="562" width="99.0" height="20" rx="10" ry="10" fill="#0D1117" stroke="#3A3020" stroke-width="1"/>
+<circle cx="124" cy="572" r="4" fill="#F7DF1E"/>
+<text x="134" y="576" fill="#A89B83" font-size="12">JavaScript</text>
+<text x="112" y="594" fill="#A89B83" font-size="13.5">视频监控多路实时预览大屏：大屏看画面 + 后台常驻盯人 + 事事推到手机。</text>
+<g transform="translate(698,546) scale(1.1250)"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Z" fill="#FBBF24"/></g>
+<text x="722" y="560" fill="#EDE6D6" font-size="17" font-weight="700">1</text>
+<g transform="translate(770,546) scale(1.1250)"><path d="M9.5 3.25a2.25 2.25 0 1 1 3 2.122V6A2.5 2.5 0 0 1 10 8.5H6a1 1 0 0 0-1 1v1.128a2.251 2.251 0 1 1-1.5 0V5.372a2.25 2.25 0 1 1 1.5 0v1.836A2.493 2.493 0 0 1 6 7h4a1 1 0 0 0 1-1v-.628A2.25 2.25 0 0 1 9.5 3.25Zm-6 0a.75.75 0 1 0 1.5 0 .75.75 0 0 0-1.5 0Zm8.25-.75a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5ZM4.25 12a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Z" fill="#FB923C"/></g>
+<text x="794" y="560" fill="#EDE6D6" font-size="17" font-weight="700">0</text>
 </svg>

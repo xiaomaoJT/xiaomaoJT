@@ -1,45 +1,45 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="920" height="220" viewBox="0 0 920 220" font-family="'PingFang SC','Microsoft YaHei','Segoe UI',system-ui,-apple-system,Helvetica,Arial,sans-serif">
 <defs>
   <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
-    <circle cx="2" cy="2" r="1.1" fill="#FFFFFF" opacity="0.045"/>
+    <circle cx="2" cy="2" r="1.1" fill="#FBBF24" opacity="0.05"/>
   </pattern>
-  <radialGradient id="topglow" cx="50%" cy="-10%" r="70%">
-    <stop offset="0" stop-color="#22D3EE" stop-opacity="0.18"/>
-    <stop offset="0.5" stop-color="#A78BFA" stop-opacity="0.06"/>
+  <radialGradient id="topglow" cx="50%" cy="-10%" r="75%">
+    <stop offset="0" stop-color="#FBBF24" stop-opacity="0.20"/>
+    <stop offset="0.5" stop-color="#F59E0B" stop-opacity="0.07"/>
     <stop offset="1" stop-color="#0D1117" stop-opacity="0"/>
   </radialGradient>
   <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
     <feGaussianBlur stdDeviation="2.4" result="b"/>
     <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
   </filter>
-  <linearGradient id="gPanel" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1B2230"/><stop offset="1" stop-color="#0E131A"/></linearGradient>
-  <linearGradient id="gCyan" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0E7490"/><stop offset="1" stop-color="#22D3EE"/></linearGradient>
-  <linearGradient id="gPurple" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#6D28D9"/><stop offset="1" stop-color="#A78BFA"/></linearGradient>
-  <linearGradient id="gPink" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#9D174D"/><stop offset="1" stop-color="#F472B6"/></linearGradient>
-  <linearGradient id="gAmber" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#B45309"/><stop offset="1" stop-color="#FBBF24"/></linearGradient>
-  <linearGradient id="gSkill" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#22D3EE"/><stop offset="1" stop-color="#A78BFA"/></linearGradient>
+  <linearGradient id="gPanel" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#211B10"/><stop offset="1" stop-color="#0E0B06"/></linearGradient>
+  <linearGradient id="gGold" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#B45309"/><stop offset="1" stop-color="#FBBF24"/></linearGradient>
+  <linearGradient id="gAmber" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#92400E"/><stop offset="1" stop-color="#F59E0B"/></linearGradient>
+  <linearGradient id="gCopper" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7C2D12"/><stop offset="1" stop-color="#FB923C"/></linearGradient>
+  <linearGradient id="gGoldB" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F59E0B"/><stop offset="1" stop-color="#FCD34D"/></linearGradient>
+  <linearGradient id="gSkill" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#B45309"/><stop offset="1" stop-color="#FBBF24"/></linearGradient>
 </defs>
 <rect width="920" height="220" fill="#0D1117"/><rect width="920" height="220" fill="url(#dots)"/><rect width="920" height="220" fill="url(#topglow)"/>
-<text x="24" y="42" fill="#C9D1D9" font-size="22" font-weight="700" letter-spacing="1">我做什么</text>
-<text x="120" y="42" fill="#67E8F9" font-size="13" font-weight="600" letter-spacing="3">WHAT I BUILD</text>
-<line x1="24" y1="56" x2="896" y2="56" stroke="#30363D" stroke-width="1"/>
-<rect x="24.0" y="80" width="272.0" height="116" rx="16" ry="16" fill="url(#gPanel)" stroke="#30363D" stroke-width="1"/>
-<rect x="24.0" y="80" width="4" height="116" rx="2" ry="2" fill="#22D3EE"/>
-<g transform="translate(144.0,98) scale(2.0000)" filter="url(#glow)"><path d="M6.5 0a.75.75 0 0 1 .75.75V4h3.97a.75.75 0 0 1 .56 1.24L7.3 10.5h3.95a.75.75 0 0 1 .56 1.24L6.3 18.5H4.5a.75.75 0 0 1-.7-.99L6.1 11H2.5a.75.75 0 0 1-.56-1.24L6.7 2.5H3.5A.75.75 0 0 1 2.75 1.76L6.1.99A.75.75 0 0 1 6.5 0Z" fill="#22D3EE"/></g>
-<text x="160.0" y="154" text-anchor="middle" fill="#C9D1D9" font-size="18" font-weight="700">自动化脚本</text>
-<text x="160.0" y="178" text-anchor="middle" fill="#8B949E" font-size="12.5">把重复的事交给代码，一次写好长期受益</text>
-<path d="M300.0 138.0 h20" stroke="#22D3EE" stroke-width="2" stroke-dasharray="4 4" opacity="0.6"/>
-<path d="M316.0 133.0 l8 5 l-8 5 z" fill="#22D3EE" opacity="0.6"/>
-<rect x="324.0" y="80" width="272.0" height="116" rx="16" ry="16" fill="url(#gPanel)" stroke="#30363D" stroke-width="1"/>
-<rect x="324.0" y="80" width="4" height="116" rx="2" ry="2" fill="#A78BFA"/>
-<g transform="translate(444.0,98) scale(2.0000)" filter="url(#glow)"><path d="M9.5 3.25a2.25 2.25 0 1 1 3 2.122V6A2.5 2.5 0 0 1 10 8.5H6a1 1 0 0 0-1 1v1.128a2.251 2.251 0 1 1-1.5 0V5.372a2.25 2.25 0 1 1 1.5 0v1.836A2.493 2.493 0 0 1 6 7h4a1 1 0 0 0 1-1v-.628A2.25 2.25 0 0 1 9.5 3.25Zm-6 0a.75.75 0 1 0 1.5 0 .75.75 0 0 0-1.5 0Zm8.25-.75a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5ZM4.25 12a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Z" fill="#A78BFA"/></g>
-<text x="460.0" y="154" text-anchor="middle" fill="#C9D1D9" font-size="18" font-weight="700">代理配置</text>
-<text x="460.0" y="178" text-anchor="middle" fill="#8B949E" font-size="12.5">QuantumultX / Clash / Loon 规则与订阅</text>
-<path d="M600.0 138.0 h20" stroke="#A78BFA" stroke-width="2" stroke-dasharray="4 4" opacity="0.6"/>
-<path d="M616.0 133.0 l8 5 l-8 5 z" fill="#A78BFA" opacity="0.6"/>
-<rect x="624.0" y="80" width="272.0" height="116" rx="16" ry="16" fill="url(#gPanel)" stroke="#30363D" stroke-width="1"/>
-<rect x="624.0" y="80" width="4" height="116" rx="2" ry="2" fill="#F472B6"/>
-<g transform="translate(744.0,98) scale(2.0000)" filter="url(#glow)"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Z" fill="#F472B6"/></g>
-<text x="760.0" y="154" text-anchor="middle" fill="#C9D1D9" font-size="18" font-weight="700">效率工具</text>
-<text x="760.0" y="178" text-anchor="middle" fill="#8B949E" font-size="12.5">Telegram 机器人、互传面板等实用小物</text>
+<text x="24" y="42" fill="#EDE6D6" font-size="22" font-weight="700" letter-spacing="1">我做什么</text>
+<text x="120" y="42" fill="#FCD34D" font-size="13" font-weight="600" letter-spacing="3">WHAT I BUILD</text>
+<line x1="24" y1="56" x2="896" y2="56" stroke="#3A3020" stroke-width="1"/>
+<rect x="24.0" y="80" width="272.0" height="116" rx="16" ry="16" fill="url(#gPanel)" stroke="#3A3020" stroke-width="1"/>
+<rect x="24.0" y="80" width="4" height="116" rx="2" ry="2" fill="#FBBF24"/>
+<g transform="translate(144.0,98) scale(2.0000)" filter="url(#glow)"><path d="M6.5 0a.75.75 0 0 1 .75.75V4h3.97a.75.75 0 0 1 .56 1.24L7.3 10.5h3.95a.75.75 0 0 1 .56 1.24L6.3 18.5H4.5a.75.75 0 0 1-.7-.99L6.1 11H2.5a.75.75 0 0 1-.56-1.24L6.7 2.5H3.5A.75.75 0 0 1 2.75 1.76L6.1.99A.75.75 0 0 1 6.5 0Z" fill="#FBBF24"/></g>
+<text x="160.0" y="154" text-anchor="middle" fill="#EDE6D6" font-size="18" font-weight="700">自动化脚本</text>
+<text x="160.0" y="178" text-anchor="middle" fill="#A89B83" font-size="12.5">把重复的事交给代码，一次写好长期受益</text>
+<path d="M300.0 138.0 h20" stroke="#FBBF24" stroke-width="2" stroke-dasharray="4 4" opacity="0.6"/>
+<path d="M316.0 133.0 l8 5 l-8 5 z" fill="#FBBF24" opacity="0.6"/>
+<rect x="324.0" y="80" width="272.0" height="116" rx="16" ry="16" fill="url(#gPanel)" stroke="#3A3020" stroke-width="1"/>
+<rect x="324.0" y="80" width="4" height="116" rx="2" ry="2" fill="#F59E0B"/>
+<g transform="translate(444.0,98) scale(2.0000)" filter="url(#glow)"><path d="M9.5 3.25a2.25 2.25 0 1 1 3 2.122V6A2.5 2.5 0 0 1 10 8.5H6a1 1 0 0 0-1 1v1.128a2.251 2.251 0 1 1-1.5 0V5.372a2.25 2.25 0 1 1 1.5 0v1.836A2.493 2.493 0 0 1 6 7h4a1 1 0 0 0 1-1v-.628A2.25 2.25 0 0 1 9.5 3.25Zm-6 0a.75.75 0 1 0 1.5 0 .75.75 0 0 0-1.5 0Zm8.25-.75a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5ZM4.25 12a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Z" fill="#F59E0B"/></g>
+<text x="460.0" y="154" text-anchor="middle" fill="#EDE6D6" font-size="18" font-weight="700">代理配置</text>
+<text x="460.0" y="178" text-anchor="middle" fill="#A89B83" font-size="12.5">QuantumultX / Clash / Loon 规则与订阅</text>
+<path d="M600.0 138.0 h20" stroke="#FBBF24" stroke-width="2" stroke-dasharray="4 4" opacity="0.6"/>
+<path d="M616.0 133.0 l8 5 l-8 5 z" fill="#FBBF24" opacity="0.6"/>
+<rect x="624.0" y="80" width="272.0" height="116" rx="16" ry="16" fill="url(#gPanel)" stroke="#3A3020" stroke-width="1"/>
+<rect x="624.0" y="80" width="4" height="116" rx="2" ry="2" fill="#FB923C"/>
+<g transform="translate(744.0,98) scale(2.0000)" filter="url(#glow)"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Z" fill="#FB923C"/></g>
+<text x="760.0" y="154" text-anchor="middle" fill="#EDE6D6" font-size="18" font-weight="700">效率工具</text>
+<text x="760.0" y="178" text-anchor="middle" fill="#A89B83" font-size="12.5">Telegram 机器人、互传面板等实用小物</text>
 </svg>

@@ -1,47 +1,47 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="920" height="220" viewBox="0 0 920 220" font-family="'PingFang SC','Microsoft YaHei','Segoe UI',system-ui,-apple-system,Helvetica,Arial,sans-serif">
 <defs>
   <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
-    <circle cx="2" cy="2" r="1.1" fill="#FFFFFF" opacity="0.045"/>
+    <circle cx="2" cy="2" r="1.1" fill="#FBBF24" opacity="0.05"/>
   </pattern>
-  <radialGradient id="topglow" cx="50%" cy="-10%" r="70%">
-    <stop offset="0" stop-color="#22D3EE" stop-opacity="0.18"/>
-    <stop offset="0.5" stop-color="#A78BFA" stop-opacity="0.06"/>
+  <radialGradient id="topglow" cx="50%" cy="-10%" r="75%">
+    <stop offset="0" stop-color="#FBBF24" stop-opacity="0.20"/>
+    <stop offset="0.5" stop-color="#F59E0B" stop-opacity="0.07"/>
     <stop offset="1" stop-color="#0D1117" stop-opacity="0"/>
   </radialGradient>
   <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
     <feGaussianBlur stdDeviation="2.4" result="b"/>
     <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
   </filter>
-  <linearGradient id="gPanel" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1B2230"/><stop offset="1" stop-color="#0E131A"/></linearGradient>
-  <linearGradient id="gCyan" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0E7490"/><stop offset="1" stop-color="#22D3EE"/></linearGradient>
-  <linearGradient id="gPurple" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#6D28D9"/><stop offset="1" stop-color="#A78BFA"/></linearGradient>
-  <linearGradient id="gPink" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#9D174D"/><stop offset="1" stop-color="#F472B6"/></linearGradient>
-  <linearGradient id="gAmber" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#B45309"/><stop offset="1" stop-color="#FBBF24"/></linearGradient>
-  <linearGradient id="gSkill" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#22D3EE"/><stop offset="1" stop-color="#A78BFA"/></linearGradient>
+  <linearGradient id="gPanel" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#211B10"/><stop offset="1" stop-color="#0E0B06"/></linearGradient>
+  <linearGradient id="gGold" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#B45309"/><stop offset="1" stop-color="#FBBF24"/></linearGradient>
+  <linearGradient id="gAmber" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#92400E"/><stop offset="1" stop-color="#F59E0B"/></linearGradient>
+  <linearGradient id="gCopper" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7C2D12"/><stop offset="1" stop-color="#FB923C"/></linearGradient>
+  <linearGradient id="gGoldB" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F59E0B"/><stop offset="1" stop-color="#FCD34D"/></linearGradient>
+  <linearGradient id="gSkill" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#B45309"/><stop offset="1" stop-color="#FBBF24"/></linearGradient>
 </defs>
 <rect width="920" height="220" fill="#0D1117"/><rect width="920" height="220" fill="url(#dots)"/><rect width="920" height="220" fill="url(#topglow)"/>
-<text x="24" y="42" fill="#C9D1D9" font-size="22" font-weight="700" letter-spacing="1">数据一览</text>
-<text x="120" y="42" fill="#67E8F9" font-size="13" font-weight="600" letter-spacing="3">BY THE NUMBERS</text>
-<text x="896" y="42" text-anchor="end" fill="#8B949E" font-size="13">自 2023 活跃至今 · 持续输出</text>
-<line x1="24" y1="56" x2="896" y2="56" stroke="#30363D" stroke-width="1"/>
-<rect x="24.0" y="72" width="206.0" height="124" rx="16" ry="16" fill="url(#gPanel)" stroke="#30363D" stroke-width="1"/>
+<text x="24" y="42" fill="#EDE6D6" font-size="22" font-weight="700" letter-spacing="1">数据一览</text>
+<text x="120" y="42" fill="#FCD34D" font-size="13" font-weight="600" letter-spacing="3">BY THE NUMBERS</text>
+<text x="896" y="42" text-anchor="end" fill="#A89B83" font-size="13">自 2019 活跃至今 · 持续输出</text>
+<line x1="24" y1="56" x2="896" y2="56" stroke="#3A3020" stroke-width="1"/>
+<rect x="24.0" y="72" width="206.0" height="124" rx="16" ry="16" fill="url(#gPanel)" stroke="#3A3020" stroke-width="1"/>
 <rect x="24.0" y="72" width="4" height="124" rx="2" ry="2" fill="#FBBF24"/>
 <g transform="translate(44.0,92) scale(1.6250)" filter="url(#glow)"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Z" fill="#FBBF24"/></g>
-<text x="44.0" y="154" fill="#C9D1D9" font-size="34" font-weight="800">839</text>
-<text x="44.0" y="181" fill="#8B949E" font-size="12.5" letter-spacing="0.5">总星标 · STARS</text>
-<rect x="246.0" y="72" width="206.0" height="124" rx="16" ry="16" fill="url(#gPanel)" stroke="#30363D" stroke-width="1"/>
-<rect x="246.0" y="72" width="4" height="124" rx="2" ry="2" fill="#22D3EE"/>
-<g transform="translate(266.0,92) scale(1.6250)" filter="url(#glow)"><path d="M2 5.5a3.5 3.5 0 1 1 5.898 2.549 5.508 5.508 0 0 1 3.034 4.084.75.75 0 1 1-1.482.235 4 4 0 0 0-7.9 0 .75.75 0 0 1-1.482-.236A5.507 5.507 0 0 1 3.102 8.05 3.493 3.493 0 0 1 2 5.5ZM11 4a3.001 3.001 0 0 1 2.22 5.018 5.01 5.01 0 0 1 2.56 3.012.749.749 0 0 1-.885.954.752.752 0 0 1-.549-.514 3.507 3.507 0 0 0-2.522-2.372.75.75 0 0 1-.574-.73v-.352a.75.75 0 0 1 .416-.672A1.5 1.5 0 0 0 11 5.5.75.75 0 0 1 11 4Zm-5.5-.5a2 2 0 1 0-.001 3.999A2 2 0 0 0 5.5 3.5Z" fill="#22D3EE"/></g>
-<text x="266.0" y="154" fill="#C9D1D9" font-size="34" font-weight="800">243</text>
-<text x="266.0" y="181" fill="#8B949E" font-size="12.5" letter-spacing="0.5">关注者 · FOLLOWERS</text>
-<rect x="468.0" y="72" width="206.0" height="124" rx="16" ry="16" fill="url(#gPanel)" stroke="#30363D" stroke-width="1"/>
-<rect x="468.0" y="72" width="4" height="124" rx="2" ry="2" fill="#A78BFA"/>
-<g transform="translate(488.0,92) scale(1.6250)" filter="url(#glow)"><path d="M2 2.5A2.5 2.5 0 0 1 4.5 0h8.75a.75.75 0 0 1 .75.75v12.5a.75.75 0 0 1-.75.75h-2.5a.75.75 0 0 1 0-1.5h1.75v-2h-8a1 1 0 0 0-.714 1.7.75.75 0 1 1-1.072 1.05A2.495 2.495 0 0 1 2 11.5Zm10.5-1h-8a1 1 0 0 0-1 1v6.708A2.486 2.486 0 0 1 4.5 9h8ZM5 12.25a.25.25 0 0 1 .25-.25h3.5a.25.25 0 0 1 .25.25v3.25a.25.25 0 0 1-.4.2l-1.45-1.087a.249.249 0 0 0-.3 0L5.4 15.7a.25.25 0 0 1-.4-.2Z" fill="#A78BFA"/></g>
-<text x="488.0" y="154" fill="#C9D1D9" font-size="34" font-weight="800">10</text>
-<text x="488.0" y="181" fill="#8B949E" font-size="12.5" letter-spacing="0.5">公开仓库 · REPOS</text>
-<rect x="690.0" y="72" width="206.0" height="124" rx="16" ry="16" fill="url(#gPanel)" stroke="#30363D" stroke-width="1"/>
-<rect x="690.0" y="72" width="4" height="124" rx="2" ry="2" fill="#F472B6"/>
-<g transform="translate(710.0,92) scale(1.6250)" filter="url(#glow)"><path d="M9.5 3.25a2.25 2.25 0 1 1 3 2.122V6A2.5 2.5 0 0 1 10 8.5H6a1 1 0 0 0-1 1v1.128a2.251 2.251 0 1 1-1.5 0V5.372a2.25 2.25 0 1 1 1.5 0v1.836A2.493 2.493 0 0 1 6 7h4a1 1 0 0 0 1-1v-.628A2.25 2.25 0 0 1 9.5 3.25Zm-6 0a.75.75 0 1 0 1.5 0 .75.75 0 0 0-1.5 0Zm8.25-.75a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5ZM4.25 12a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Z" fill="#F472B6"/></g>
-<text x="710.0" y="154" fill="#C9D1D9" font-size="34" font-weight="800">96</text>
-<text x="710.0" y="181" fill="#8B949E" font-size="12.5" letter-spacing="0.5">被复刻 · FORKS</text>
+<text x="44.0" y="154" fill="#EDE6D6" font-size="34" font-weight="800">894</text>
+<text x="44.0" y="181" fill="#A89B83" font-size="12.5" letter-spacing="0.5">总星标 · STARS</text>
+<rect x="246.0" y="72" width="206.0" height="124" rx="16" ry="16" fill="url(#gPanel)" stroke="#3A3020" stroke-width="1"/>
+<rect x="246.0" y="72" width="4" height="124" rx="2" ry="2" fill="#F59E0B"/>
+<g transform="translate(266.0,92) scale(1.6250)" filter="url(#glow)"><path d="M2 5.5a3.5 3.5 0 1 1 5.898 2.549 5.508 5.508 0 0 1 3.034 4.084.75.75 0 1 1-1.482.235 4 4 0 0 0-7.9 0 .75.75 0 0 1-1.482-.236A5.507 5.507 0 0 1 3.102 8.05 3.493 3.493 0 0 1 2 5.5ZM11 4a3.001 3.001 0 0 1 2.22 5.018 5.01 5.01 0 0 1 2.56 3.012.749.749 0 0 1-.885.954.752.752 0 0 1-.549-.514 3.507 3.507 0 0 0-2.522-2.372.75.75 0 0 1-.574-.73v-.352a.75.75 0 0 1 .416-.672A1.5 1.5 0 0 0 11 5.5.75.75 0 0 1 11 4Zm-5.5-.5a2 2 0 1 0-.001 3.999A2 2 0 0 0 5.5 3.5Z" fill="#F59E0B"/></g>
+<text x="266.0" y="154" fill="#EDE6D6" font-size="34" font-weight="800">243</text>
+<text x="266.0" y="181" fill="#A89B83" font-size="12.5" letter-spacing="0.5">关注者 · FOLLOWERS</text>
+<rect x="468.0" y="72" width="206.0" height="124" rx="16" ry="16" fill="url(#gPanel)" stroke="#3A3020" stroke-width="1"/>
+<rect x="468.0" y="72" width="4" height="124" rx="2" ry="2" fill="#D97706"/>
+<g transform="translate(488.0,92) scale(1.6250)" filter="url(#glow)"><path d="M2 2.5A2.5 2.5 0 0 1 4.5 0h8.75a.75.75 0 0 1 .75.75v12.5a.75.75 0 0 1-.75.75h-2.5a.75.75 0 0 1 0-1.5h1.75v-2h-8a1 1 0 0 0-.714 1.7.75.75 0 1 1-1.072 1.05A2.495 2.495 0 0 1 2 11.5Zm10.5-1h-8a1 1 0 0 0-1 1v6.708A2.486 2.486 0 0 1 4.5 9h8ZM5 12.25a.25.25 0 0 1 .25-.25h3.5a.25.25 0 0 1 .25.25v3.25a.25.25 0 0 1-.4.2l-1.45-1.087a.249.249 0 0 0-.3 0L5.4 15.7a.25.25 0 0 1-.4-.2Z" fill="#D97706"/></g>
+<text x="488.0" y="154" fill="#EDE6D6" font-size="34" font-weight="800">11</text>
+<text x="488.0" y="181" fill="#A89B83" font-size="12.5" letter-spacing="0.5">公开仓库 · REPOS</text>
+<rect x="690.0" y="72" width="206.0" height="124" rx="16" ry="16" fill="url(#gPanel)" stroke="#3A3020" stroke-width="1"/>
+<rect x="690.0" y="72" width="4" height="124" rx="2" ry="2" fill="#FB923C"/>
+<g transform="translate(710.0,92) scale(1.6250)" filter="url(#glow)"><path d="M9.5 3.25a2.25 2.25 0 1 1 3 2.122V6A2.5 2.5 0 0 1 10 8.5H6a1 1 0 0 0-1 1v1.128a2.251 2.251 0 1 1-1.5 0V5.372a2.25 2.25 0 1 1 1.5 0v1.836A2.493 2.493 0 0 1 6 7h4a1 1 0 0 0 1-1v-.628A2.25 2.25 0 0 1 9.5 3.25Zm-6 0a.75.75 0 1 0 1.5 0 .75.75 0 0 0-1.5 0Zm8.25-.75a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5ZM4.25 12a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Z" fill="#FB923C"/></g>
+<text x="710.0" y="154" fill="#EDE6D6" font-size="34" font-weight="800">96</text>
+<text x="710.0" y="181" fill="#A89B83" font-size="12.5" letter-spacing="0.5">被复刻 · FORKS</text>
 </svg>
