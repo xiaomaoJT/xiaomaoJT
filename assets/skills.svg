@@ -1,62 +1,59 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="920" height="300" viewBox="0 0 920 300" font-family="'PingFang SC','Microsoft YaHei','Segoe UI',system-ui,-apple-system,Helvetica,Arial,sans-serif">
 <defs>
-  <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
-    <circle cx="2" cy="2" r="1.1" fill="#FBBF24" opacity="0.05"/>
-  </pattern>
-  <radialGradient id="topglow" cx="50%" cy="-10%" r="75%">
-    <stop offset="0" stop-color="#FBBF24" stop-opacity="0.20"/>
-    <stop offset="0.5" stop-color="#F59E0B" stop-opacity="0.07"/>
-    <stop offset="1" stop-color="#0D1117" stop-opacity="0"/>
-  </radialGradient>
-  <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
-    <feGaussianBlur stdDeviation="2.4" result="b"/>
-    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  <linearGradient id="gGold" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#FBBF24"/><stop offset="1" stop-color="#D97706"/></linearGradient>
+  <linearGradient id="gAmber" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#F59E0B"/><stop offset="1" stop-color="#B45309"/></linearGradient>
+  <linearGradient id="gSkill" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#FBBF24"/><stop offset="1" stop-color="#D97706"/></linearGradient>
+  <radialGradient id="topglow" cx="50%" cy="-15%" r="80%">
+    <stop offset="0" stop-color="#F59E0B" stop-opacity="0.10"/>
+    <stop offset="1" stop-color="#F59E0B" stop-opacity="0"/></radialGradient>
+  <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+    <feDropShadow dx="0" dy="2" stdDeviation="5" flood-color="#9A3412" flood-opacity="0.10"/>
   </filter>
-  <linearGradient id="gPanel" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#211B10"/><stop offset="1" stop-color="#0E0B06"/></linearGradient>
-  <linearGradient id="gGold" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#B45309"/><stop offset="1" stop-color="#FBBF24"/></linearGradient>
-  <linearGradient id="gAmber" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#92400E"/><stop offset="1" stop-color="#F59E0B"/></linearGradient>
-  <linearGradient id="gCopper" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7C2D12"/><stop offset="1" stop-color="#FB923C"/></linearGradient>
-  <linearGradient id="gGoldB" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F59E0B"/><stop offset="1" stop-color="#FCD34D"/></linearGradient>
-  <linearGradient id="gSkill" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#B45309"/><stop offset="1" stop-color="#FBBF24"/></linearGradient>
+  <filter id="softshadow" x="-20%" y="-20%" width="140%" height="150%">
+    <feDropShadow dx="0" dy="1" stdDeviation="3" flood-color="#000000" flood-opacity="0.06"/>
+  </filter>
 </defs>
-<rect width="920" height="300" fill="#0D1117"/><rect width="920" height="300" fill="url(#dots)"/><rect width="920" height="300" fill="url(#topglow)"/>
-<text x="24" y="42" fill="#EDE6D6" font-size="22" font-weight="700" letter-spacing="1">技术栈</text>
-<text x="108" y="42" fill="#FCD34D" font-size="13" font-weight="600" letter-spacing="3">STACK &amp; PROFICIENCY</text>
-<line x1="24" y1="56" x2="896" y2="56" stroke="#3A3020" stroke-width="1"/>
-<text x="32" y="91" fill="#EDE6D6" font-size="14.5" font-weight="500">JavaScript / Node.js</text>
-<rect x="320" y="79" width="496" height="12" rx="6" ry="6" fill="#0D1117" stroke="#3A3020" stroke-width="1"/>
+<rect width="920" height="300" fill="#FFFFFF"/><rect width="920" height="300" fill="url(#topglow)"/>
+<text x="24" y="42" fill="#1A1916" font-size="22" font-weight="800" letter-spacing="1">技术栈</text>
+<text x="98" y="42" fill="#B45309" font-size="12" font-weight="700" letter-spacing="3">STACK &amp; PROFICIENCY</text>
+<line x1="24" y1="56" x2="896" y2="56" stroke="#E9E0CE" stroke-width="1.5"/>
+<text x="32" y="91" fill="#2B2925" font-size="14.5" font-weight="600">JavaScript / Node.js</text>
+<rect x="320" y="79" width="496" height="12" rx="6" ry="6" fill="#FFFBF6" stroke="#E9E0CE" stroke-width="1"/>
 <rect x="320" y="79" width="456.32" height="12" rx="6" ry="6" fill="url(#gSkill)"/>
-<text x="864" y="91" fill="#FCD34D" font-size="14" font-weight="700" text-anchor="end">92%</text>
-<text x="32" y="121" fill="#EDE6D6" font-size="14.5" font-weight="500">Google Apps Script</text>
-<rect x="320" y="109" width="496" height="12" rx="6" ry="6" fill="#0D1117" stroke="#3A3020" stroke-width="1"/>
+<text x="864" y="91" fill="#B45309" font-size="14" font-weight="800" text-anchor="end">92%</text>
+<text x="32" y="121" fill="#2B2925" font-size="14.5" font-weight="600">Google Apps Script</text>
+<rect x="320" y="109" width="496" height="12" rx="6" ry="6" fill="#FFFBF6" stroke="#E9E0CE" stroke-width="1"/>
 <rect x="320" y="109" width="421.6" height="12" rx="6" ry="6" fill="url(#gSkill)"/>
-<text x="864" y="121" fill="#FCD34D" font-size="14" font-weight="700" text-anchor="end">85%</text>
-<text x="32" y="151" fill="#EDE6D6" font-size="14.5" font-weight="500">代理 / 网络配置</text>
-<rect x="320" y="139" width="496" height="12" rx="6" ry="6" fill="#0D1117" stroke="#3A3020" stroke-width="1"/>
+<text x="864" y="121" fill="#B45309" font-size="14" font-weight="800" text-anchor="end">85%</text>
+<text x="32" y="151" fill="#2B2925" font-size="14.5" font-weight="600">代理 / 网络配置</text>
+<rect x="320" y="139" width="496" height="12" rx="6" ry="6" fill="#FFFBF6" stroke="#E9E0CE" stroke-width="1"/>
 <rect x="320" y="139" width="436.48" height="12" rx="6" ry="6" fill="url(#gSkill)"/>
-<text x="864" y="151" fill="#FCD34D" font-size="14" font-weight="700" text-anchor="end">88%</text>
-<text x="32" y="181" fill="#EDE6D6" font-size="14.5" font-weight="500">Vue.js</text>
-<rect x="320" y="169" width="496" height="12" rx="6" ry="6" fill="#0D1117" stroke="#3A3020" stroke-width="1"/>
+<text x="864" y="151" fill="#B45309" font-size="14" font-weight="800" text-anchor="end">88%</text>
+<text x="32" y="181" fill="#2B2925" font-size="14.5" font-weight="600">Vue.js</text>
+<rect x="320" y="169" width="496" height="12" rx="6" ry="6" fill="#FFFBF6" stroke="#E9E0CE" stroke-width="1"/>
 <rect x="320" y="169" width="347.2" height="12" rx="6" ry="6" fill="url(#gSkill)"/>
-<text x="864" y="181" fill="#FCD34D" font-size="14" font-weight="700" text-anchor="end">70%</text>
-<text x="32" y="211" fill="#EDE6D6" font-size="14.5" font-weight="500">HTML / CSS</text>
-<rect x="320" y="199" width="496" height="12" rx="6" ry="6" fill="#0D1117" stroke="#3A3020" stroke-width="1"/>
+<text x="864" y="181" fill="#B45309" font-size="14" font-weight="800" text-anchor="end">70%</text>
+<text x="32" y="211" fill="#2B2925" font-size="14.5" font-weight="600">HTML / CSS</text>
+<rect x="320" y="199" width="496" height="12" rx="6" ry="6" fill="#FFFBF6" stroke="#E9E0CE" stroke-width="1"/>
 <rect x="320" y="199" width="386.88" height="12" rx="6" ry="6" fill="url(#gSkill)"/>
-<text x="864" y="211" fill="#FCD34D" font-size="14" font-weight="700" text-anchor="end">78%</text>
-<text x="32" y="241" fill="#EDE6D6" font-size="14.5" font-weight="500">Python</text>
-<rect x="320" y="229" width="496" height="12" rx="6" ry="6" fill="#0D1117" stroke="#3A3020" stroke-width="1"/>
+<text x="864" y="211" fill="#B45309" font-size="14" font-weight="800" text-anchor="end">78%</text>
+<text x="32" y="241" fill="#2B2925" font-size="14.5" font-weight="600">Python</text>
+<rect x="320" y="229" width="496" height="12" rx="6" ry="6" fill="#FFFBF6" stroke="#E9E0CE" stroke-width="1"/>
 <rect x="320" y="229" width="317.44" height="12" rx="6" ry="6" fill="url(#gSkill)"/>
-<text x="864" y="241" fill="#FCD34D" font-size="14" font-weight="700" text-anchor="end">64%</text>
-<text x="32" y="271" fill="#EDE6D6" font-size="14.5" font-weight="500">Shell / 自动化</text>
-<rect x="320" y="259" width="496" height="12" rx="6" ry="6" fill="#0D1117" stroke="#3A3020" stroke-width="1"/>
+<text x="864" y="241" fill="#B45309" font-size="14" font-weight="800" text-anchor="end">64%</text>
+<text x="32" y="271" fill="#2B2925" font-size="14.5" font-weight="600">Shell / 自动化</text>
+<rect x="320" y="259" width="496" height="12" rx="6" ry="6" fill="#FFFBF6" stroke="#E9E0CE" stroke-width="1"/>
 <rect x="320" y="259" width="357.12" height="12" rx="6" ry="6" fill="url(#gSkill)"/>
-<text x="864" y="271" fill="#FCD34D" font-size="14" font-weight="700" text-anchor="end">72%</text>
-<text x="32" y="301" fill="#EDE6D6" font-size="14.5" font-weight="500">Git</text>
-<rect x="320" y="289" width="496" height="12" rx="6" ry="6" fill="#0D1117" stroke="#3A3020" stroke-width="1"/>
+<text x="864" y="271" fill="#B45309" font-size="14" font-weight="800" text-anchor="end">72%</text>
+<text x="32" y="301" fill="#2B2925" font-size="14.5" font-weight="600">Git</text>
+<rect x="320" y="289" width="496" height="12" rx="6" ry="6" fill="#FFFBF6" stroke="#E9E0CE" stroke-width="1"/>
 <rect x="320" y="289" width="396.8" height="12" rx="6" ry="6" fill="url(#gSkill)"/>
-<text x="864" y="301" fill="#FCD34D" font-size="14" font-weight="700" text-anchor="end">80%</text>
-<text x="32" y="331" fill="#EDE6D6" font-size="14.5" font-weight="500">macOS / Linux</text>
-<rect x="320" y="319" width="496" height="12" rx="6" ry="6" fill="#0D1117" stroke="#3A3020" stroke-width="1"/>
+<text x="864" y="301" fill="#B45309" font-size="14" font-weight="800" text-anchor="end">80%</text>
+<text x="32" y="331" fill="#2B2925" font-size="14.5" font-weight="600">macOS / Linux</text>
+<rect x="320" y="319" width="496" height="12" rx="6" ry="6" fill="#FFFBF6" stroke="#E9E0CE" stroke-width="1"/>
 <rect x="320" y="319" width="372.0" height="12" rx="6" ry="6" fill="url(#gSkill)"/>
-<text x="864" y="331" fill="#FCD34D" font-size="14" font-weight="700" text-anchor="end">75%</text>
+<text x="864" y="331" fill="#B45309" font-size="14" font-weight="800" text-anchor="end">75%</text>
 </svg>
